@@ -1,7 +1,7 @@
 import Keycloak from 'https://cdn.jsdelivr.net/npm/keycloak-js@25.0.5/+esm';
 const keycloak = new Keycloak({
     url: 'http://localhost:8080',
-    realm: 'intellilink',
+    realm: 'username',
     clientId: 'app1-frontend',
   });
   
